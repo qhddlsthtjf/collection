@@ -1,5 +1,7 @@
 package util.vetor;
 
+import java.util.Vector;
+
 public interface GradeService {
 	//인터페이스는 추상메소드만 존재한다.
 	//따라서 abstrack 을 생략해도 디폴트로 존재한다.
@@ -17,8 +19,16 @@ public interface GradeService {
 	 * */
 	public String searchGradeByHakbun(String hakbun);
 	
+	
 	/*
-	 성적순으로 정렬
+	 이름으로 성적결과 조회
 	 * */
-	public void ascGradeTotal();
+	public Vector<Grade> SearchGradeByName(String name);
+	/*
+	총점 역순순으로 정렬
+	 * */
+	public void descByTotal();
+	/*오름차순정렬*/
+	public void ascByName();
+	
 }
