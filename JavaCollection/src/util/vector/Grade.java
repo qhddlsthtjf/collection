@@ -1,4 +1,4 @@
-package util.vetor;
+package util.vector;
 
 public class Grade {
 	private int kor, eng, math;

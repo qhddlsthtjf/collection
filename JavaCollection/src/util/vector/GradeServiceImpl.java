@@ -1,4 +1,4 @@
-package util.vetor;
+package util.vector;
 //전체에서 특정글자 바꾸기 단축키  전체를 잡고 CTRL + F
 import java.util.ArrayList;
 import java.util.Collections;
